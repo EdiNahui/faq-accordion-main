@@ -4,7 +4,7 @@ let buttons = document.getElementsByClassName('button');
 for (let button of buttons) {
     button.addEventListener('click', (event) => {
         if (button.src.includes("plus")) {
-            button.src = "/assets/images/icon-minus.svg"; 
+            button.src = "./assets/images/icon-minus.svg"; 
               button.parentElement.nextSibling.nextSibling.style.display = "contents";  
 
              
@@ -12,7 +12,7 @@ for (let button of buttons) {
         }
 
         else {
-            button.src = "/assets/images/icon-plus.svg";
+            button.src = "./assets/images/icon-plus.svg";
             button.parentElement.nextSibling.nextSibling.style.display = "none";
         }
     })
