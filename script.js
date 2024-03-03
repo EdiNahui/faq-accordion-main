@@ -1,5 +1,4 @@
 let buttons = document.getElementsByClassName('button');
-console.log(buttons);
 
 
 for (let button of buttons) {
